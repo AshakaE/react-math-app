@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-TBA
+[React Calculator](https://react-math-app.herokuapp.com)
 
 ## Getting Started
 
