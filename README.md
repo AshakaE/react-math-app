@@ -7,6 +7,7 @@
 - JavaScript
 - HTML5
 - CSS3
+- React
 
 ## Live Demo
 
