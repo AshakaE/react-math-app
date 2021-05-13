@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 
 const Display = (props) => {
   const { result } = props;
-  return <div>{result}</div>;
+  return (
+    <div>{result}</div>
+  );
 };
 
 Display.propTypes = {
