@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Display from './Display';
+import ButtonPanel from './ButtonPanel';
 
 class App extends Component {
   constructor(props) {
@@ -8,6 +10,14 @@ class App extends Component {
       next: null,
       operation: null,
     };
+  }
+  render() {
+    return (
+      <div>
+        <Display />
+        <ButtonPanel />
+      </div>
+    );
   }
 }
 
