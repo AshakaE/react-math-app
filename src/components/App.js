@@ -19,10 +19,11 @@ class App extends Component {
   }
 
   render() {
+    const { total, next, operation } = this.state;
     return (
       <div>
-        <Display />
-        <ButtonPanel />
+        <Display total={total} next={next} operation={operation} />
+        <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );
   }
