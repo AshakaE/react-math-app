@@ -2,59 +2,70 @@ import operate from './operate';
 
 const calculate = (data, button) => {
   let { total, next, operation } = data;
-  const nums = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
-  const operators = ['+', '-', 'x', '÷'];
-
-  if (button === '+/-') {
-    total *= -1;
-    next *= -1;
-  }
-  if (button === '=') {
-    while (next !== null) {
+  switch (button) {
+    case '0':
+    case '1':
+    case '2':
+    case '3':
+    case '4':
+    case '5':
+    case '6':
+    case '7':
+    case '8':
+    case '9':
+    case '.':
+      if (operation === '=' || (total === '0' && operation === '')) {
+        total = button;
+        operation = '';
+      } else if (operation === '') {
+        if (button === '.' && total.includes('.')) {
+          break;
+        }
+        total += button;
+      } else {
+        if (button === '.' && next.includes('.')) {
+          break;
+        }
+        next += button;
+      }
+      break;
+    case '-':
+    case '+':
+    case '*':
+    case '÷':
+      if (next !== '') {
+        total = operate(total, next, operation);
+        next = '';
+      }
+      operation = button;
+      break;
+    case '%':
+      if (operation === '' || operation === '=') {
+        total = operate(total, 1, '%');
+      } else {
+        next = operate(next, total, '%');
+      }
+      break;
+    case '+/-':
+      if (operation === '' || operation === '=') {
+        total = operate(total, 1, '+/-');
+      } else {
+        next = operate(next, 1, '+/-');
+      }
+      break;
+    case '=':
       total = operate(total, next, operation);
-      next = null;
-    }
-  }
-  if (button === 'AC') {
-    total = null;
-    next = null;
-    operation = null;
-  }
-
-  if (button === '.') {
-    if (!next.includes('.')) {
-      next += button;
-    }
-  }
-
-  if (button === '%') {
-    total /= 100;
-    next /= 100;
-  }
-
-  if (nums.includes(button)) {
-    while (next === null) {
       next = '';
-    }
-    next += button;
+      operation = '=';
+      break;
+    case 'AC':
+      total = '0';
+      next = '';
+      operation = '';
+      break;
+    default:
+      break;
   }
-
-  if (operators.includes(button)) {
-    while (next !== null && operation !== null) {
-      total = operate(total, next, operation);
-      operation = button;
-      next = null;
-      operation = null;
-    }
-    while (next !== null) {
-      total = next;
-      next = null;
-    }
-    if (next == null || operation == null) {
-      operation = button;
-    }
-  }
-
   return { total, next, operation };
 };
 

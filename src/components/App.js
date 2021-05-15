@@ -7,13 +7,14 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      total: null,
-      next: null,
-      operation: null,
+      total: '0',
+      next: '',
+      operation: '',
     };
+    this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick(buttonName) {
+  handleClick = (buttonName) => {
     const { total, next, operation } = this.state;
     this.setState(calculate({ total, next, operation }, buttonName));
   }
@@ -22,7 +23,7 @@ class App extends Component {
     const { total, next, operation } = this.state;
     return (
       <div>
-        <Display total={total} next={next} operation={operation} />
+        <Display result={`${total} ${operation} ${next}`} />
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );
