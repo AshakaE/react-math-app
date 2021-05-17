@@ -6,8 +6,8 @@ import Home from './Home';
 const Routes = () => (
   <BrowserRouter>
     <Switch>
-      <Route path="/" component={App} />
-      <Route path="/Home" component={Home} />
+      <Route path="/" component={Home} />
+      <Route path="/calculator" component={App} />
     </Switch>
   </BrowserRouter>
 );
