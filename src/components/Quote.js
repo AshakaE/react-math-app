@@ -1,10 +1,7 @@
 import React from 'react';
 
 const Quote = () => (
-  <p>
-    Mathematics is not about numbers, equations, computations, or algorithms: it
-    is about understanding. –William Paul Thurston
-  </p>
+  <p>Be the chief but never the lord. - Lao Tzu</p>
 );
 
 export default Quote;
