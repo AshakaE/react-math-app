@@ -7,9 +7,9 @@ const Home = () => (
     <div>
       <Navbar />
     </div>
-    <div>
-      <h1>Welcome to the React Math App</h1>
-      <p>
+    <div className="m-auto px-56">
+      <h1 className="text-center text-2xl mb-5">Welcome to the React Math App</h1>
+      <p className="text-center text-xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit id
         molestiae, praesentium quidem accusamus, eius tenetur maiores voluptatem
         iusto quo veritatis ipsa natus maxime, ipsam expedita. A, ullam tempore!

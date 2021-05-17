@@ -2,14 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => (
-  <div>
+  <div className="flex justify-between px-28 mt-10 mb-16">
     <div>
-      <h1>Math Magicians</h1>
+      <h1 className="text-4xl font-medium uppercase">Math Magicians</h1>
     </div>
-    <div>
-      <Link to="/">Home </Link>
-      <Link to="/calculator">Calculator </Link>
-      <Link to="/quote">Quote </Link>
+    <div className="text-2xl flex w-96 justify-between underline text-blue-700">
+      <Link className="hover:text-blue-400 duration-150" to="/">Home </Link>
+      <Link className="hover:text-blue-400 duration-150" to="/calculator">Calculator </Link>
+      <Link className="hover:text-blue-400 duration-150" to="/quote">Quote </Link>
     </div>
   </div>
 );
