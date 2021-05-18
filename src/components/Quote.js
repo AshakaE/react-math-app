@@ -23,7 +23,7 @@ const Quote = () => {
       <div className="m-auto px-56 mt-60 text-center">
         <div>
           <p className="text-4xl font-extralight italic">{quote.text}</p>
-          <h4 className="text-3xl pt-3">{quote.author}</h4>
+          <h4 className="text-3xl pt-3">{quote.author ?? 'Anonymous'}</h4>
         </div>
       </div>
     </>
