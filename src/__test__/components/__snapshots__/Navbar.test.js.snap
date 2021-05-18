@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav renders correctly 1`] = `
+<div
+  className="flex justify-between px-28 mt-10 mb-16"
+>
+  <div>
+    <h1
+      className="text-4xl font-medium uppercase"
+    >
+      Math Magicians
+    </h1>
+  </div>
+  <div
+    className="text-2xl flex w-96 justify-between underline text-blue-700"
+  >
+    <a
+      className="hover:text-blue-400 duration-150"
+      href="/"
+      onClick={[Function]}
+    >
+      Home 
+    </a>
+    <a
+      className="hover:text-blue-400 duration-150"
+      href="/calculator"
+      onClick={[Function]}
+    >
+      Calculator 
+    </a>
+    <a
+      className="hover:text-blue-400 duration-150"
+      href="/quote"
+      onClick={[Function]}
+    >
+      Quote 
+    </a>
+  </div>
+</div>
+`;
