@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `
+Array [
+  <div>
+    <div
+      className="flex justify-between px-28 mt-10 mb-16"
+    >
+      <div>
+        <h1
+          className="text-4xl font-medium uppercase"
+        >
+          Math Magicians
+        </h1>
+      </div>
+      <div
+        className="text-2xl flex w-96 justify-between underline text-blue-700"
+      >
+        <a
+          className="hover:text-blue-400 duration-150"
+          href="/"
+          onClick={[Function]}
+        >
+          Home 
+        </a>
+        <a
+          className="hover:text-blue-400 duration-150"
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator 
+        </a>
+        <a
+          className="hover:text-blue-400 duration-150"
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote 
+        </a>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="m-auto px-56"
+  >
+    <h1
+      className="text-center text-2xl mb-5"
+    >
+      Welcome to the React Math App
+    </h1>
+    <p
+      className="text-center text-xl"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit id molestiae, praesentium quidem accusamus, eius tenetur maiores voluptatem iusto quo veritatis ipsa natus maxime, ipsam expedita. A, ullam tempore! Molestias ut sunt voluptatum, libero ratione numquam ipsam recusandae error harum aspernatur quo aliquam obcaecati similique incidunt odio debitis velit illo cum, ad ea magni! Tempore suscipit deleniti iure porro obcaecati vitae quo voluptas consectetur hic nulla dolor delectus voluptatem minima dicta, facere repellendus atque accusamus cupiditate mollitia alias amet? Qui, iure odit. Quidem dolore inventore quae totam itaque cumque ipsam veritatis? Nulla impedit autem recusandae nisi, saepe omnis repudiandae voluptates!
+    </p>
+  </div>,
+]
+`;
