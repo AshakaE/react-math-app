@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+Array [
+  <div>
+    <div
+      className="flex justify-between px-28 mt-10 mb-16"
+    >
+      <div>
+        <h1
+          className="text-4xl font-medium uppercase"
+        >
+          Math Magicians
+        </h1>
+      </div>
+      <div
+        className="text-2xl flex w-96 justify-between underline text-blue-700"
+      >
+        <a
+          className="hover:text-blue-400 duration-150"
+          href="/"
+          onClick={[Function]}
+        >
+          Home 
+        </a>
+        <a
+          className="hover:text-blue-400 duration-150"
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator 
+        </a>
+        <a
+          className="hover:text-blue-400 duration-150"
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote 
+        </a>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="flex flex-col justify-center w-[700px] m-auto mt-10"
+  >
+    <div
+      className="flex w-[700px] justify-end bg-gray-600 h-[100px] text-white font-bold pt-8 pr-5 text-5xl"
+    >
+      0  
+    </div>
+    <div
+      className="flex w-[700px] h-[100px] justify-around"
+    >
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none gray "
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none gray "
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none gray "
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none orange "
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+    </div>
+    <div
+      className="flex w-[700px] h-[100px] justify-around"
+    >
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none gray "
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none gray "
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none gray "
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none orange "
+        onClick={[Function]}
+        type="button"
+      >
+        *
+      </button>
+    </div>
+    <div
+      className="flex w-[700px] h-[100px] justify-around"
+    >
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none gray "
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none gray "
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none gray "
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none orange "
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      className="flex w-[700px] h-[100px] justify-around"
+    >
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none gray "
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none gray "
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none gray "
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none orange "
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <div
+      className="flex w-[700px] h-[100px] justify-between"
+    >
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none gray wide"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none gray "
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="w-1/4 border border-gray-400 text-2xl focus:outline-none orange "
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>,
+]
+`;
