@@ -28,7 +28,7 @@ Node.js
 
 ### Run tests
 
-- `npm run test`
+- `npm test`
 
 ## Author
 
@@ -39,7 +39,7 @@ Node.js
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues and, feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/AshakaE/react-math-app/issues).
 
