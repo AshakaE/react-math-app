@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.gray {
+  background-color: rgb(201, 201, 201);
+}
+
+.orange {
+  background-color: orange;
+}
+
+.wide {
+  width: 50%;
+}

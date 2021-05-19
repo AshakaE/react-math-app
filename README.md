@@ -1,13 +1,15 @@
-# Title TBA
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> Description TBA
+# React Calculator
+
+> A calculator that performs primary math functions. 
+
+![](./docs/snapshot.jpeg)
 
 ## Built With
 
-- JavaScript
-- HTML5
-- CSS3
-- React
+- React.js
+- TailwindCSS
 
 ## Live Demo
 
@@ -15,29 +17,20 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+- `git clone git@github.com:AshakaE/react-math-app.git`
+- `cd react-math-app`
+- `npm install`
+- `npm start`
 
 ### Prerequisites
 
 Node.js
 
-### Setup
-
-- Clone the repository in the folder of your choice:<br> 
-
-
-### Usage
-
-- Start server with:
-
-
 ### Run tests
 
+- `npm test`
 
-
-### Deployment
-
-TBA
+## Author
 
 👤 **Ashaka Egerega**
 
@@ -46,9 +39,9 @@ TBA
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues and, feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/AshakaE/react-math-app/issues).
 
 ## Show your support
 
@@ -56,7 +49,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-TBA
+- To Microverse for their `README` template.
 
 ## 📝 License
 
@@ -66,5 +59,5 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS, OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
